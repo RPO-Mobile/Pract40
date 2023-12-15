@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface MessageApi {
     @GET("messages1.json")
-    fun messages() : Call<List<Message>>
+    fun messages() : Call<MutableList<Message>>
 }
